@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end of favicon  -->
+
+    <title>Vlad Yanukovich Page</title>
+</head>
+<body>
+
+<!-- preloader  -->
+<div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+<!-- end of preloader  -->
+
+    <!-- header section  -->
+    <header class="header">
+
+        <div class="hamburger">
+            <button class="js-menu menu" type="button">
+                <span class="bar"></span>
+            </button>
+            <nav>
+                <ul>
+                    <li data-scroll="#home"><a href="#" ></a>Home</li>
+                    <li data-scroll="#education"><a href="#" ></a>Education</li>
+                    <li data-scroll="#experience"><a href="#" ></a>Experience</li>
+                    <li data-scroll="#skills"><a href="#" ></a>Skills</li>
+                    <li data-scroll="#portfolio"><a href="#" ></a>Portfolio</li>
+                    <li data-scroll="#contact"><a href="#" ></a>Contact</li>
+                </ul>
+
+                <ul class="social">
+                   <li><a href="https://twitter.com/baddesinger5" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                   <li><a href="https://www.instagram.com/vlad_drumstick/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                   <li><a href="https://github.com/Baddesinger5" target="_blank"><i class="fab fa-github"></i></a></li>
+                   <li><a href="https://t.me/vlad_is_love6" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                   <li data-scroll="#contact"><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+
+                <p class="copyrights">2020 Vlad Yanukovich</p>
+            </nav>
+        </div>
+
+        <div class="top-buttons">
+            <button class="download-cv">download CV</button>
+            <button class="contact-button" data-scroll="#contact">contact</button>
+        </div>
+    </header>
+<!-- end of header section -->
+
+<!-- typing text section, main section  -->
+    <section class="main-section" id="home">
+        <div class="container">
+            <div class="main-text">
+                <p id="companionMethods"></p>
+            </div>
+
+            <div class="animation-scroll">
+                <img class="mouse-image" style="height: 50px;" src="images/mouse.svg" alt="">
+                <img class="arrow-1 floating" style="height: 30px;" src="images/down-arrow-1.svg" alt="">
+                <img class="arrow-2 floating" style="height: 30px; margin-top: -10px;" src="images/down-arrow-2.svg" alt="">
+            </div>
+
+        </div>
+    </section>
+<!-- end of typing text section, main section  -->
+
+<!-- scroll-button  -->
+    <!-- <section class="scroll-button">
+        <div class="container">
+            
+        </div>
+    </section> -->
+<!-- end of scroll-button -->
+
+<!-- section about me -->
+    <section class="about-me">
+        <div class="container">
+            <div class="about-me-inner">
+
+                <div class="about-me-info">
+                    <h1 class="about-me-title">About me</h1>
+                    <p class="about-me-text">Short information about me, that may be useful. Here's the most important:</p>
+                    <table class="info-table">
+                        <tr>
+                            <td>Name</td>
+                            <td>Vlad Yanukovich</td>
+                        </tr>
+                        <tr>
+                            <td>Date of birth</td>
+                            <td>September 18, 1995</td>
+                        </tr>
+                        <tr>
+                            <td>Location</td>
+                            <td>Minsk</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>baddesinger5@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone number</td>
+                            <td>+375 29 814 90 83</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+
+                <div class="main-image">
+                    <img src="images/this-photo.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of section about me -->
+
+<!-- education section  -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="education-inner">
+                <h1 class="education-title">Education</h1>
+
+                <div class="educationl-list">
+                    <ul>
+                        <li>
+                            <p class="list-year">2013-2017</p>
+                            <p class="list-name">Higher education</p>
+                            <p class="list-text">Finished BSTU in 2017. I have a diploma in the specialty: tourism and nature management. Had a little work experience in two travel agencies.</p>
+                        </li>
+                        <li>
+                            <p class="list-year">2019-2020</p>
+                            <p class="list-name">Courses</p>
+                            <p class="list-text">Studied course programs for UX/UI Design from company Mail.ru and Skillbox school. I am learning HTML courses, CSS and JS (For exp: geekbrains, html academy, webfomyself) now.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of education section  -->
+
+    <!-- experience section  -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="experience-inner">
+                <h1 class="experience-title">Experience</h1>
+
+                <div class="experience-list">
+                    <ul>
+                        <li>
+                            <p class="exp-list-year">2019</p>
+                            <p class="exp-list-name">UX/UI Designer</p>
+                            <p class="exp-list-text">Also have a little experience in ux-ui design. Building layouts for websites and mobile applications. Work with Photoshop, Figma, Aadobe Illustrator and Adobe XD.</p>
+                        </li>
+                        <li>
+                            <p class="exp-list-year">2018-2019</p>
+                            <p class="exp-list-name">Outsourcing Center</p>
+                            <p class="exp-list-text">The last place of work was an outsourcing center, working for Wargaming company in customer support (World of Tanks and World of Tanks Blitz). Answers to questions and help for players.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of experience section  -->
+
+
+    <!-- skills section  -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h1 class="skills-title">Skills</h1>
+
+            <div class="skills-inner">
+                
+                <div class="progress-bar-list-1">
+
+                    <div class="progres-block">
+                        <div class="label-block">
+                            <label for="html">HTML</label> 
+                            <label for="html" style="margin-left: 427px;">50%</label>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-value" id="html"></div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="progres-block" style="margin: 20px 0;">
+                        <div class="label-block">
+                            <label for="html">CSS</label> 
+                            <label for="html" style="margin-left: 440px;">50%</label>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-value" id="html"></div>
+                        </div>
+                    </div>
+
+                    <div class="progres-block">
+                        <div class="label-block">
+                            <label for="html">JS</label> 
+                            <label for="html" style="margin-left: 455px;">30%</label>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-value" id="html" style="width: 30%;"></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="progress-bar-list-2">
+
+                    <div class="progres-block">
+                        <div class="label-block">
+                            <label for="soc">Sociability</label> 
+                            <label for="soc" style="margin-left: 400px;">80%</label>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-value" id="soc" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="progres-block" style="margin: 20px 0;">
+                        <div class="label-block">
+                            <label for="teamwork">Teamwork</label> 
+                            <label for="teamwork" style="margin-left: 400px;">80%</label>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-value" id="teamwork" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="progres-block">
+                        <div class="label-block">
+                            <label for="english">English</label> 
+                            <label for="english" style="margin-left: 420px;">30%</label>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-value" id="english" style="width: 30%;"></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+
+            <div class="tools">
+                <h3 class="tools-title">Often used tools</h3>
+                <div class="tools-list">
+                    <ul>
+                        <li><i class="fas fa-file-powerpoint" title="Photoshop"></i></li>
+                        <li><i class="fab fa-bootstrap" title="Bootstrap"></i></li>
+                        <li><i class="fab fa-sass" title="Sass"></i></li>
+                        <li><i class="fab fa-figma" title="Figma"></i></li>
+                        <li><i class="fab fa-git-alt" title="Git"></i></li>
+                    </ul>                  
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- end of skills section  -->
+
+<!-- portfolio section  -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="portfolio-title">Portfolio</h1>
+
+                <div class="portfolio-inner">
+                    
+                    <div class="portfolio-block">
+                        <button class="show-modal open-modal">First project</button>
+                            <div class="modal">
+                              <button class="close-modal">X</button>
+                              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sit quas aut labore nam quis qui eos quasi soluta sunt nihil voluptate expedita. Aliquam aliquid excepturi ex ab fuga ipsa?</div>
+                            </div>
+                    </div>
+
+                    <div class="portfolio-block">
+                        <button class="show-modal open-modal">Second project</button>
+                            <div class="modal">
+                              <button class="close-modal">X</button>
+                              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sit quas aut labore nam quis qui eos quasi soluta sunt nihil voluptate expedita. Aliquam aliquid excepturi ex ab fuga ipsa?</div>
+                            </div>
+                    </div>
+
+                    <div class="portfolio-block">
+                        <button class="show-modal open-modal">Third project</button>
+                            <div class="modal">
+                              <button class="close-modal">X</button>
+                              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sit quas aut labore nam quis qui eos quasi soluta sunt nihil voluptate expedita. Aliquam aliquid excepturi ex ab fuga ipsa?</div>
+                            </div>
+                    </div>
+
+                </div>
+
+                <button class="see-all-portfolio">see all portfolio</button>
+        </div>
+    </section>
+<!-- end of portfolio section  -->
+
+
+<!-- footer  -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <h1 class="footer-title">Contact</h1>
+
+                <div class="contacts">
+                    <form action="#" class="form">
+                        <div class="form-row-1">
+                            <div>
+                                <label for="first-name">First Name</label>
+                                <input type="text" class="first-name" id="first-name">
+                            </div>
+                            <div>
+                                <label for="second-name">Second Name</label>
+                                <input type="text" class="second-name"id="second-name">
+                            </div>
+                            
+                          
+                        </div>
+                        
+                        <div class="form-row-2">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject">
+                        </div>
+
+                        <div class="form-row-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+
+                        <div class="form-row-4">
+                            <label for="taxtarea">Message</label>
+                            <textarea name="#" id="textarea" placeholder="Write your message..." cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button type="submit" class="send-message">send message</button>
+                    </form>
+
+            </div>
+        </div>
+    </footer>
+<!-- end of footer  -->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/typeit.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
