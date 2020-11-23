@@ -513,7 +513,10 @@ nav ul:first-child {
 .social {
   display: flex;
   padding: 0;
-  margin: 150px auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
   justify-content: space-around;
 }
@@ -568,7 +571,7 @@ nav ul:first-child {
 
 .copyrights {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-right: 20px;
 }
 
@@ -783,6 +786,15 @@ nav ul:first-child {
 .skills-inner {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.progress-bar-list-1 {
+  margin-left: 20px;
+}
+
+.progress-bar-list-1, .progress-bar-list-2 {
+  margin-right: 20px;
 }
 
 /* == progress bar ==*/
@@ -803,6 +815,30 @@ nav ul:first-child {
   background: #40424a;
   height: 20px;
   width: 50%;
+}
+
+.label-html {
+  margin-left: 427px;
+}
+
+.label-css {
+  margin-left: 440px;
+}
+
+.label-js {
+  margin-left: 455px;
+}
+
+.label-soc {
+  margin-left: 400px;
+}
+
+.label-team {
+  margin-left: 400px;
+}
+
+.label-eng {
+  margin-left: 420px;
 }
 
 /*===end of progress bar ==*/
@@ -826,6 +862,7 @@ nav ul:first-child {
   display: flex;
   justify-content: space-around;
   width: 50%;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -945,6 +982,7 @@ nav ul:first-child {
   transition: all 0.2s ease-in-out 0s;
   margin-top: 50px;
   float: right;
+  margin-right: 50px;
 }
 .see-all-portfolio:hover {
   cursor: pointer;
@@ -1066,4 +1104,313 @@ label {
 nav ul:first-child li a {
   position: absolute;
   padding: 30px 80px;
+}
+
+/*===============================================*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1400px) {
+  .about-me-info {
+    margin-left: 20px;
+  }
+
+  .main-image {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .info-table {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-me-inner {
+    align-items: center;
+  }
+
+  .about-me-info {
+    margin-top: 30px;
+  }
+
+  .main-image {
+    margin-top: 150px;
+  }
+
+  .education-title, .experience-title, .skills-title, .portfolio-title, .footer-title {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .main-image {
+    margin-bottom: -100px;
+  }
+
+  .list-text, .exp-list-text {
+    width: 80%;
+  }
+
+  .progress-bar-list-1, .progress-bar-list-2 {
+    margin: 10px 10px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 940px) {
+  #companionMethods {
+    font-size: 60px;
+  }
+
+  .main-image {
+    margin-bottom: -200px;
+  }
+
+  .info-table {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  #companionMethods {
+    font-size: 50px;
+  }
+
+  .about-me-info .about-me-text {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .info-table {
+    font-size: 16px;
+  }
+
+  .tools-list ul {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .about-me-inner {
+    flex-wrap: wrap-reverse;
+  }
+
+  .main-image {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+
+  .about-me-info .about-me-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .about-me-info .about-me-text {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .info-table {
+    width: 100%;
+    margin: 0;
+  }
+  .info-table td {
+    width: 100%;
+  }
+
+  .education .education-title {
+    font-size: 50px;
+  }
+
+  .experience-title {
+    font-size: 50px;
+  }
+
+  .skills-title {
+    font-size: 50px;
+  }
+
+  .portfolio-title {
+    font-size: 50px;
+  }
+
+  .footer .footer-title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 794px) {
+  .educationl-list .list-year {
+    font-size: 40px;
+  }
+
+  .experience-list .exp-list-year {
+    font-size: 40px;
+  }
+
+  .educationl-list li::before {
+    margin-top: 15px;
+  }
+  .educationl-list li::after {
+    padding: 150px 0;
+  }
+
+  .experience-list li::before {
+    margin-top: 15px;
+  }
+  .experience-list li::after {
+    padding: 150px 0;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 670px) {
+  #companionMethods {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  html {
+    /* change hamburger icon*/
+    font-size: 13px;
+  }
+
+  .main-image {
+    margin-top: 50px;
+    margin-bottom: -100px;
+  }
+
+  .about-me-info {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 560px) {
+  #companionMethods {
+    font-size: 36px;
+  }
+
+  .main-image {
+    margin-top: 50px;
+    margin-bottom: -200px;
+  }
+
+  .experience-list li::after {
+    padding: 175px 0;
+  }
+
+  .progress {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .progress-bar-list-1, .progress-bar-list-2 {
+    width: 300px;
+  }
+
+  .label-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .label-html, .label-css, .label-js, .label-soc, .label-team, .label-eng {
+    margin: 0;
+  }
+
+  .tools-list ul {
+    width: 100%;
+  }
+
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 500px) {
+  #companionMethods {
+    font-size: 30px;
+  }
+
+  .main-image {
+    margin-top: 50px;
+    margin-bottom: -250px;
+  }
+
+  .educationl-list li::after {
+    padding: 175px 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  nav {
+    width: 250px;
+  }
+
+  .social {
+    width: 90%;
+  }
+
+  .main-image {
+    margin-bottom: -300px;
+  }
+
+  .download-cv, .contact-button {
+    padding: 10px 20px;
+  }
+
+  .educationl-list .list-name {
+    font-size: 30px;
+  }
+
+  .experience-list .exp-list-name {
+    font-size: 30px;
+  }
+  .experience-list li::after {
+    padding: 180px 0;
+  }
+
+  .open-modal {
+    height: 250px;
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  #companionMethods {
+    font-size: 24px;
+  }
+
+  .experience-list li::after {
+    padding: 190px 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+  html {
+    /* change hamburger icon*/
+    font-size: 11px;
+  }
+
+  .download-cv, .contact-button {
+    padding: 8px 14px;
+    margin-right: 5px;
+  }
+
+  .main-image {
+    margin-bottom: -360px;
+  }
+
+  .educationl-list li::after {
+    padding: 170px 0;
+  }
+
+  .educationl-list .list-text {
+    font-size: 14px;
+  }
+
+  .experience-list li::after {
+    padding: 170px 0;
+  }
+
+  .experience-list .exp-list-text {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .main-image {
+    margin-bottom: -400px;
+  }
 }

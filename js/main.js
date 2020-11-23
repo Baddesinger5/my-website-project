@@ -70,9 +70,6 @@ $('.close-modal').click(function() {
  modal.fadeOut();
 });
 
-// darktheme
-
-
 // preloader 
 $(window).on('load', function () {
   window.setTimeout(function () {
