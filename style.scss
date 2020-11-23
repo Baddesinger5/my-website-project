@@ -688,8 +688,9 @@ nav ul:first-child {
   background-color: #dbd9d9;
   display: none;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 55%;
+  left: 47%;
+  right: 0;
   width: 400px;
   height: 200px;
   margin-left: -200px;
@@ -796,7 +797,7 @@ label {
     margin: 0 auto;
 }
 .portfolio-block {
-    margin: 10px 10px;
+    margin: 20px 10px;
     outline: none;
     width: auto;
 }
@@ -805,6 +806,10 @@ label {
 }
 
 // for links on header
-nav ul li a {
-    
+.portfolio-page {
+    padding-top: 50px;
+}
+nav ul:first-child li a {
+    position: absolute;
+    padding: 30px 80px;
 }
