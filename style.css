@@ -709,6 +709,7 @@ nav ul:first-child {
   content: "";
   position: absolute;
   margin-top: 25px;
+  margin-left: -0.03em;
 }
 .educationl-list li::after {
   border-left: 2px solid #40424a;
@@ -757,6 +758,7 @@ nav ul:first-child {
   content: "";
   position: absolute;
   margin-top: 25px;
+  margin-left: -0.03em;
 }
 .experience-list li::after {
   border-left: 2px solid #40424a;
