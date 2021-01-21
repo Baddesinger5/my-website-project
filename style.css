@@ -933,6 +933,7 @@ nav ul:first-child {
   width: 430px;
   text-transform: uppercase;
   transition: all 0.4s ease-in-out 0s;
+  cursor: pointer;
 }
 
 .open-modal:hover {
@@ -947,12 +948,10 @@ nav ul:first-child {
   display: none;
   position: fixed;
   top: 55%;
-  left: 47%;
-  right: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 400px;
   height: 200px;
-  margin-left: -200px;
-  margin-top: -150px;
   padding: 50px;
   border-radius: 5px;
   z-index: 10;
@@ -1302,6 +1301,11 @@ nav ul:first-child li a {
     width: 300px;
   }
 
+  .modal {
+    width: 300px;
+    height: 200px;
+  }
+
   .label-block {
     width: 100%;
     display: flex;
@@ -1368,6 +1372,11 @@ nav ul:first-child li a {
     height: 250px;
     width: 280px;
   }
+
+  .modal {
+    width: 250px;
+    height: 200px;
+  }
 }
 @media only screen and (max-width: 420px) {
   #companionMethods {
@@ -1407,6 +1416,11 @@ nav ul:first-child li a {
 
   .experience-list .exp-list-text {
     font-size: 14px;
+  }
+
+  .modal {
+    width: 200px;
+    height: 250px;
   }
 }
 @media only screen and (max-width: 340px) {
