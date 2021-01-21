@@ -1093,12 +1093,25 @@ label {
   width: auto;
 }
 
+.portfolio-text {
+  font-size: 20px;
+  color: #40424a;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
 .modal {
   box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.3);
 }
 
 .portfolio-page {
   padding-top: 50px;
+}
+.portfolio-page .container .portfolio-title {
+  margin: 0;
+  margin-left: 15px;
 }
 
 nav ul:first-child li a {
