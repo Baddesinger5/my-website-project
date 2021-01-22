@@ -28,7 +28,6 @@ $('.js-menu').on('click', function() {
 });
 
 // typeit script 
-
 new TypeIt("#companionMethods", {
 	speed: 100,
 	waitUntilVisible: true,
@@ -60,15 +59,53 @@ new TypeIt("#companionMethods", {
 
 
 //modal window
-var modal = $('.modal');
-$('.show-modal').click(function(event) {
-	event.preventDefault();
- 	modal.fadeIn();
-});
+document.addEventListener('DOMContentLoaded', function() {
 
-$('.close-modal').click(function() {
- modal.fadeOut();
-});
+	// Вешаем событие при нажатии на Show
+	var Show = document.getElementsByClassName('show-modal');
+	[].forEach.call(Show, function(element, i) {       
+	  element.addEventListener('click', function(){
+		showMessageDialog(i);
+	  });
+	});
+  
+	// Вешаем событие при нажатии на Ok
+	var Close = document.getElementsByClassName('close-modal');
+	[].forEach.call(Close, function(element, i) {       
+	  element.addEventListener('click', function(){
+		closeMessageDialog(i);
+	  });
+	});
+  
+  });
+  
+  function showMessageDialog(i){
+	var modal = document.getElementsByClassName('modal')[i];
+	var opacity = 0.01;
+	modal.style.display = "block";
+	
+	var timer = setInterval(function() {
+		if(opacity >= 1) {	
+			clearInterval(timer);
+		}
+		modal.style.opacity = opacity;
+		opacity += opacity * 0.1;
+		
+	}, 10);     
+  }
+  
+  function closeMessageDialog(i){
+	var modal = document.getElementsByClassName('modal')[i];   
+	var opacity = 1;
+		var timer = setInterval(function() {
+			if(opacity <= 0.1) {
+				clearInterval(timer);
+				modal.style.display = "none";
+			}
+			modal.style.opacity = opacity;
+			opacity -= opacity * 0.1;
+		}, 10);  
+  }
 
 // preloader 
 $(window).on('load', function () {

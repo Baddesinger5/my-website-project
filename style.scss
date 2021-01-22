@@ -727,7 +727,7 @@ nav ul:first-child {
 //   margin-top: -150px;
   padding: 50px;
   border-radius: 5px;
-  z-index: 10;
+  z-index: 5;
   box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.5);
 }
 
@@ -741,6 +741,23 @@ nav ul:first-child {
   outline: none;
   cursor: pointer;
 }
+.portfolio {
+    & .container {
+        &.portfolio-inner {
+            & .portfolio-block {
+                & .modal {
+                    & ul {
+                        color: $text-color;
+                        position: absolute;
+                        z-index: 6;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /*=== end of modal===*/
 .see-all-portfolio {
     @include btn();
