@@ -741,22 +741,41 @@ nav ul:first-child {
   outline: none;
   cursor: pointer;
 }
-.portfolio {
-    & .container {
-        &.portfolio-inner {
-            & .portfolio-block {
-                & .modal {
-                    & ul {
-                        color: $text-color;
-                        position: absolute;
-                        z-index: 6;
-                        display: block;
-                    }
-                }
-            }
+.attributes-list {
+    color: $text-color;
+    font-size: 22px;
+    & li {
+        margin: 5px 0;
+        text-decoration: none;    
+    }
+    & a {
+        color: $text-color;
+        text-decoration: none;
+        
+        &:hover {
+            transition: all 0.4s ease-in-out 0s;
+        }
+        &::after {
+            display: block;
+            position: absolute;
+            left: 13%; 
+            width: 0;
+            height: 2px; 
+            background-color: $text-color;
+            content: "";
+            transition: width 0.3s ease-out; 
+            margin-top: 0px;
+        }
+        &:hover::after,
+        &:focus:after {
+            width: 70%; 
         }
     }
+   
+       
+    
 }
+
 
 /*=== end of modal===*/
 .see-all-portfolio {

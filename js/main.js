@@ -61,7 +61,7 @@ new TypeIt("#companionMethods", {
 //modal window
 document.addEventListener('DOMContentLoaded', function() {
 
-	// Вешаем событие при нажатии на Show
+	// Вешаем событие при нажатии на show-modal
 	var Show = document.getElementsByClassName('show-modal');
 	[].forEach.call(Show, function(element, i) {       
 	  element.addEventListener('click', function(){
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	  });
 	});
   
-	// Вешаем событие при нажатии на Ok
+	// Вешаем событие при нажатии на кнопку закрытия close-modal
 	var Close = document.getElementsByClassName('close-modal');
 	[].forEach.call(Close, function(element, i) {       
 	  element.addEventListener('click', function(){

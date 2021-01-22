@@ -972,11 +972,34 @@ nav ul:first-child {
   cursor: pointer;
 }
 
-.portfolio .container.portfolio-inner .portfolio-block .modal ul {
+.attributes-list {
   color: #40424a;
-  position: absolute;
-  z-index: 6;
+  font-size: 22px;
+}
+.attributes-list li {
+  margin: 5px 0;
+  text-decoration: none;
+}
+.attributes-list a {
+  color: #40424a;
+  text-decoration: none;
+}
+.attributes-list a:hover {
+  transition: all 0.4s ease-in-out 0s;
+}
+.attributes-list a::after {
   display: block;
+  position: absolute;
+  left: 13%;
+  width: 0;
+  height: 2px;
+  background-color: #40424a;
+  content: "";
+  transition: width 0.3s ease-out;
+  margin-top: 0px;
+}
+.attributes-list a:hover::after, .attributes-list a:focus:after {
+  width: 70%;
 }
 
 /*=== end of modal===*/
