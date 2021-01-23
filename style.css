@@ -447,12 +447,14 @@ nav ul:first-child li {
   font-size: 1.5rem;
   transition: all 0.3s ease-in-out 0s;
   border-bottom: 1px solid #eaeaea;
+  font-weight: 300;
   width: 50%;
 }
 nav ul:first-child li:hover {
   transition: all 0.3s ease-in-out 0s;
   margin-left: 30px;
   border-bottom: 1px solid #40424a;
+  padding: auto;
   font-weight: 700;
   cursor: pointer;
 }
