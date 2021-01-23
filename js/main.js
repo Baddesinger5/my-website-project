@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var modal = document.getElementsByClassName('modal')[i];
 	var opacity = 0.01;
 	modal.style.display = "block";
+	modal.style.opacity = opacity;
 	
 	var timer = setInterval(function() {
 		if(opacity >= 1) {	

@@ -752,7 +752,7 @@ nav ul:first-child {
         color: $text-color;
         text-decoration: none;
         
-        &:hover {
+        &:hover {  //animation for hover
             transition: all 0.4s ease-in-out 0s;
         }
         &::after {
@@ -771,11 +771,8 @@ nav ul:first-child {
             width: 70%; 
         }
     }
-   
-       
-    
+    //end of animation  
 }
-
 
 /*=== end of modal===*/
 .see-all-portfolio {
@@ -1101,7 +1098,9 @@ nav ul:first-child li a {
         height: 200px;
 
     }
-
+    .attributes-list {
+        font-size: 16px;
+    }
     .label-block {
         width: 100%;
         display: flex;
@@ -1136,6 +1135,9 @@ nav ul:first-child li a {
             }
         }
     }
+    .portfolio-text {
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width : 440px) {
     nav {
@@ -1167,12 +1169,16 @@ nav ul:first-child li a {
     }
     .open-modal {
         height: 250px;
-        width: 280px;
+        width: 250px;
     }
     .modal {
         width: 250px;
         height: 200px;
-
+    }
+    .attributes-list {
+        font-size: 14px;
+        padding: 0;   
+        padding-left: 20px; 
     }
 }
 @media only screen and (max-width : 420px) {
@@ -1224,8 +1230,12 @@ nav ul:first-child li a {
     }
     .modal {
         width: 200px;
-        height: 250px;
-
+        height: 150px;
+    }
+    .attributes-list {
+        font-size: 12px;
+        padding: 0;   
+        padding-left: 10px; 
     }
 }
 @media only screen and (max-width : 340px) {
