@@ -455,7 +455,7 @@ nav ul:first-child li:hover {
   margin-left: 30px;
   border-bottom: 1px solid #40424a;
   padding: auto;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -589,12 +589,15 @@ nav ul:first-child {
   font-size: 70px;
   font-weight: 700;
   text-align: center;
-  margin-top: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  width: 1000px;
 }
 
-/*===floating icon ===*/
 .animation-scroll {
-  height: 100px;
   position: absolute;
   bottom: 5%;
   left: 0;
@@ -605,6 +608,10 @@ nav ul:first-child {
   display: block;
   margin: 0 auto;
   color: #40424a;
+  height: 30px;
+}
+.animation-scroll img:first-child {
+  height: 50px;
 }
 .animation-scroll img .mouse-image {
   color: #40424a;
@@ -1187,6 +1194,11 @@ nav ul:first-child li a {
   }
 }
 @media only screen and (max-width: 1070px) {
+  #companionMethods {
+    font-size: 60px;
+    width: 820px;
+  }
+
   .main-image {
     margin-bottom: -100px;
   }
@@ -1201,10 +1213,6 @@ nav ul:first-child li a {
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 940px) {
-  #companionMethods {
-    font-size: 60px;
-  }
-
   .main-image {
     margin-bottom: -200px;
   }
@@ -1216,6 +1224,7 @@ nav ul:first-child li a {
 @media only screen and (max-width: 870px) {
   #companionMethods {
     font-size: 50px;
+    width: 700px;
   }
 
   .about-me-info .about-me-text {
@@ -1305,12 +1314,13 @@ nav ul:first-child li a {
     padding: 150px 0;
   }
 }
-/* Small Devices, Tablets */
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 700px) {
   #companionMethods {
-    font-size: 40px;
+    font-size: 36px;
+    width: 500px;
   }
 }
+/* Small Devices, Tablets */
 @media only screen and (max-width: 630px) {
   html {
     /* change hamburger icon*/
@@ -1327,10 +1337,6 @@ nav ul:first-child li a {
   }
 }
 @media only screen and (max-width: 560px) {
-  #companionMethods {
-    font-size: 36px;
-  }
-
   .main-image {
     margin-top: 50px;
     margin-bottom: -200px;
@@ -1380,7 +1386,15 @@ nav ul:first-child li a {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 500px) {
   #companionMethods {
-    font-size: 30px;
+    font-size: 26px;
+    width: 360px;
+  }
+
+  .animation-scroll img {
+    height: 15px;
+  }
+  .animation-scroll img:first-child {
+    height: 30px;
   }
 
   .main-image {
@@ -1441,10 +1455,6 @@ nav ul:first-child li a {
   }
 }
 @media only screen and (max-width: 420px) {
-  #companionMethods {
-    font-size: 24px;
-  }
-
   .experience-list li::after {
     padding: 190px 0;
   }
@@ -1462,6 +1472,11 @@ nav ul:first-child li a {
 
   .main-image {
     margin-bottom: -360px;
+  }
+
+  #companionMethods {
+    font-size: 20px;
+    width: 300px;
   }
 
   .educationl-list li::after {
