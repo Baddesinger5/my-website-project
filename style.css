@@ -442,20 +442,21 @@ nav ul:first-child {
   padding: 0;
 }
 nav ul:first-child li {
-  padding: 15px 5px;
+  height: 40px;
   margin-left: 20px;
   font-size: 1.5rem;
   transition: all 0.3s ease-in-out 0s;
   border-bottom: 1px solid #eaeaea;
   font-weight: 300;
   width: 50%;
+  margin-bottom: 25px;
 }
 nav ul:first-child li:hover {
   transition: all 0.3s ease-in-out 0s;
   margin-left: 30px;
   border-bottom: 1px solid #40424a;
   padding: auto;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -511,6 +512,12 @@ nav ul:first-child li:hover {
 nav ul:first-child {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+nav ul:first-child li a {
+  position: absolute;
+  height: 60px;
+  width: 100%;
 }
 
 .social {
@@ -1153,11 +1160,6 @@ label {
 .portfolio-page .container .portfolio-title {
   margin: 0;
   margin-left: 15px;
-}
-
-nav ul:first-child li a {
-  position: absolute;
-  padding: 30px 80px;
 }
 
 /*===============================================*/
