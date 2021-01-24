@@ -934,6 +934,12 @@ nav ul:first-child li a {
         font-size: 60px;
         width: 820px;
     }
+    nav ul:first-child {
+        position: absolute;
+        top: 30%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }
 	.main-image {
         margin-bottom: -100px;
     }
@@ -942,6 +948,26 @@ nav ul:first-child li a {
     }
     .progress-bar-list-1, .progress-bar-list-2 {
         margin: 10px 10px;
+    }
+    .social {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .copyrights {
+        text-align: center;
+        margin: 0;
+        position: absolute;
+        bottom: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
     }
 }
 
@@ -961,6 +987,7 @@ nav ul:first-child li a {
             margin-top: 0;
         }
     }
+    
 }
 
 @media only screen and (max-width : 870px) {
@@ -1075,11 +1102,6 @@ nav ul:first-child li a {
             margin-left: 40px;
             margin-top: 0;
         }
-        // & li {
-        //     &::after {
-        //         padding: 180px 0;
-        //     }
-        // }
     }
     
     .educationl-list {
@@ -1092,16 +1114,6 @@ nav ul:first-child li a {
             }
         }
     }
-    // .experience-list {
-    //     & li {
-    //         &::before {
-    //             margin-top: 15px;
-    //         }
-    //         &::after {
-    //             padding: 150px 0;
-    //         }
-    //     }
-    // }
 }
 @media only screen and (max-width : 700px) {
 	#companionMethods {
@@ -1116,6 +1128,7 @@ nav ul:first-child li a {
             margin-top: 0;
         }
     }
+
 }
 /* Small Devices, Tablets */
 
@@ -1225,9 +1238,6 @@ nav ul:first-child li a {
 @media only screen and (max-width : 440px) {
     nav {
         width: 250px;
-    }
-    .social {
-        width: 90%;
     }
 	.main-image {
         margin-bottom: -300px;

@@ -1199,6 +1199,13 @@ nav ul:first-child li a {
     width: 820px;
   }
 
+  nav ul:first-child {
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+  }
+
   .main-image {
     margin-bottom: -100px;
   }
@@ -1209,6 +1216,28 @@ nav ul:first-child li a {
 
   .progress-bar-list-1, .progress-bar-list-2 {
     margin: 10px 10px;
+  }
+
+  .social {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .copyrights {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
   }
 }
 /* Medium Devices, Desktops */
@@ -1459,10 +1488,6 @@ nav ul:first-child li a {
 @media only screen and (max-width: 440px) {
   nav {
     width: 250px;
-  }
-
-  .social {
-    width: 90%;
   }
 
   .main-image {
