@@ -1220,6 +1220,13 @@ nav ul:first-child li a {
   .info-table {
     font-size: 20px;
   }
+
+  .experience-list .exp-list-text {
+    margin: 0;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 0;
+  }
 }
 @media only screen and (max-width: 870px) {
   #companionMethods {
@@ -1230,6 +1237,13 @@ nav ul:first-child li a {
   .about-me-info .about-me-text {
     font-size: 20px;
     width: 90%;
+  }
+
+  .experience-list .exp-list-text {
+    margin: 0;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 0;
   }
 
   .info-table {
@@ -1279,6 +1293,19 @@ nav ul:first-child li a {
     font-size: 50px;
   }
 
+  .experience-list .exp-list-year {
+    font-size: 40px;
+  }
+  .experience-list .exp-list-text {
+    margin: 0;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 0;
+  }
+  .experience-list li::after {
+    padding: 125px 0;
+  }
+
   .skills-title {
     font-size: 50px;
   }
@@ -1299,6 +1326,12 @@ nav ul:first-child li a {
   .experience-list .exp-list-year {
     font-size: 40px;
   }
+  .experience-list .exp-list-text {
+    margin: 0;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 0;
+  }
 
   .educationl-list li::before {
     margin-top: 15px;
@@ -1306,18 +1339,18 @@ nav ul:first-child li a {
   .educationl-list li::after {
     padding: 150px 0;
   }
-
-  .experience-list li::before {
-    margin-top: 15px;
-  }
-  .experience-list li::after {
-    padding: 150px 0;
-  }
 }
 @media only screen and (max-width: 700px) {
   #companionMethods {
     font-size: 36px;
     width: 500px;
+  }
+
+  .experience-list .exp-list-text {
+    margin: 0;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 0;
   }
 }
 /* Small Devices, Tablets */
@@ -1343,7 +1376,7 @@ nav ul:first-child li a {
   }
 
   .experience-list li::after {
-    padding: 175px 0;
+    padding: 145px 0;
   }
 
   .progress {
@@ -1402,12 +1435,25 @@ nav ul:first-child li a {
     margin-bottom: -250px;
   }
 
+  .educationl-list .list-text {
+    font-size: 14px;
+  }
   .educationl-list li::after {
-    padding: 175px 0;
+    padding: 160px 0;
   }
 
   .portfolio-text {
     font-size: 16px;
+  }
+
+  .experience-list .exp-list-year {
+    font-size: 38px;
+  }
+  .experience-list .exp-list-text {
+    font-size: 14px;
+  }
+  .experience-list li::after {
+    padding: 135px 0;
   }
 }
 @media only screen and (max-width: 440px) {
@@ -1427,15 +1473,34 @@ nav ul:first-child li a {
     padding: 10px 20px;
   }
 
-  .educationl-list .list-name {
+  .educationl-list .list-year {
     font-size: 30px;
+  }
+  .educationl-list .list-name {
+    font-size: 26px;
+  }
+  .educationl-list .list-text {
+    font-size: 12px;
+  }
+  .educationl-list li::after {
+    padding: 120px 0;
   }
 
-  .experience-list .exp-list-name {
+  .experience-list .exp-list-year {
     font-size: 30px;
   }
+  .experience-list .exp-list-name {
+    font-size: 26px;
+  }
+  .experience-list .exp-list-text {
+    font-size: 12px;
+    margin: 0;
+    width: 85%;
+    margin-left: 40px;
+    margin-top: 0;
+  }
   .experience-list li::after {
-    padding: 180px 0;
+    padding: 110px 0;
   }
 
   .open-modal {
@@ -1456,7 +1521,7 @@ nav ul:first-child li a {
 }
 @media only screen and (max-width: 420px) {
   .experience-list li::after {
-    padding: 190px 0;
+    padding: 115px 0;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -1480,19 +1545,15 @@ nav ul:first-child li a {
   }
 
   .educationl-list li::after {
-    padding: 170px 0;
+    padding: 120px 0;
   }
 
   .educationl-list .list-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .experience-list li::after {
-    padding: 170px 0;
-  }
-
-  .experience-list .exp-list-text {
-    font-size: 14px;
+    padding: 115px 0;
   }
 
   .modal {
@@ -1509,5 +1570,12 @@ nav ul:first-child li a {
 @media only screen and (max-width: 340px) {
   .main-image {
     margin-bottom: -400px;
+  }
+
+  .experience-list .exp-list-year {
+    font-size: 28px;
+  }
+  .experience-list .exp-list-name {
+    font-size: 22px;
   }
 }
