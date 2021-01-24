@@ -1203,9 +1203,15 @@ label {
 
   nav ul:first-child {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 22%;
     transform: translate(-50%, -50%);
+    margin: 0;
+  }
+  nav ul:first-child li {
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 15px;
   }
 
   .main-image {
@@ -1227,7 +1233,7 @@ label {
     width: 100%;
     justify-content: space-around;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
