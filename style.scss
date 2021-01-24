@@ -253,7 +253,6 @@ nav {
             transition: all 0.3s ease-in-out 0s;
             border-bottom: 1px solid #eaeaea;
             font-weight: 300;
-            // transform: scale(1);
             width: 50%;
             
 			&:hover {
@@ -262,7 +261,6 @@ nav {
                 border-bottom: 1px solid $text-color;
                 padding: auto;
                 font-weight: 700;
-                // transform: scale(1.2);
                 cursor: pointer;
 			}
 		}
