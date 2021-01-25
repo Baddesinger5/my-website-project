@@ -1197,7 +1197,7 @@ label {
 
   nav ul:first-child {
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 40%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -1227,7 +1227,7 @@ label {
     width: 100%;
     justify-content: space-around;
     position: absolute;
-    bottom: 20%;
+    bottom: 7%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -1236,7 +1236,7 @@ label {
     text-align: center;
     margin: 0;
     position: absolute;
-    bottom: 15%;
+    bottom: 2%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -1567,6 +1567,15 @@ label {
   .download-cv, .contact-button {
     padding: 8px 14px;
     margin-right: 5px;
+  }
+
+  nav ul:first-child li {
+    height: 25px;
+    margin-bottom: 20px;
+  }
+
+  nav ul:first-child li a {
+    height: 30px;
   }
 
   .main-image {
