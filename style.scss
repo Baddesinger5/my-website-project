@@ -254,12 +254,11 @@ nav {
             border-bottom: 1px solid #eaeaea;
             font-weight: 300;
             width: 50%;
-            margin-bottom: 25px;            
+            margin-bottom: 20px;            
 			&:hover {
                 transition: all 0.3s ease-in-out 0s;
                 margin-left: 30px;
                 border-bottom: 1px solid $text-color;
-                padding: auto;
                 font-weight: 700;
                 cursor: pointer;
 			}
@@ -1203,6 +1202,10 @@ label {
 	#companionMethods {
         font-size: 26px;
         width: 360px;
+    }
+    .social a{
+        @include s-icons();
+        font-size: 26px;
     }
     .animation-scroll {
         & img {
