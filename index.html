@@ -360,15 +360,15 @@
             <h1 class="footer-title">Contact</h1>
 
                 <div class="contacts">
-                    <form action="#" class="form">
+                    <form action="https://formspree.io/f/xleozzzk" method="POST" class="form">
                         <div class="form-row-1">
                             <div>
                                 <label for="first-name">First Name</label>
-                                <input type="text" class="first-name" id="first-name">
+                                <input type="text" class="first-name" id="first-name" name="first-name" required>
                             </div>
                             <div>
                                 <label for="second-name">Second Name</label>
-                                <input type="text" class="second-name"id="second-name">
+                                <input type="text" class="second-name" name="second-name" id="second-name">
                             </div>
                             
                           
@@ -376,17 +376,17 @@
                         
                         <div class="form-row-2">
                             <label for="subject">Subject</label>
-                            <input type="text" id="subject">
+                            <input type="text" id="subject" name="subject" required>
                         </div>
 
                         <div class="form-row-3">
                             <label for="email">Email</label>
-                            <input type="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
 
                         <div class="form-row-4">
                             <label for="taxtarea">Message</label>
-                            <textarea name="#" id="textarea" placeholder="Write your message..." cols="30" rows="10"></textarea>
+                            <textarea name="#" id="textarea" name="textarea" placeholder="Write your message..." cols="30" rows="10" required></textarea>
                         </div>
 
                         <button type="submit" class="send-message">send message</button>

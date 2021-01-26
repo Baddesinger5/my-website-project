@@ -168,48 +168,47 @@
 </section>
 <!-- end of section portfolio  -->
 
-
 <!-- footer  -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <h1 class="footer-title">Contact</h1>
+<footer class="footer" id="contact">
+    <div class="container">
+        <h1 class="footer-title">Contact</h1>
 
-                <div class="contacts">
-                    <form action="#" class="form">
-                        <div class="form-row-1">
-                            <div>
-                                <label for="first-name">First Name</label>
-                                <input type="text" class="first-name" id="first-name">
-                            </div>
-                            <div>
-                                <label for="second-name">Second Name</label>
-                                <input type="text" class="second-name"id="second-name">
-                            </div>
-                            
-                          
+            <div class="contacts">
+                <form action="https://formspree.io/f/xleozzzk" method="POST" class="form">
+                    <div class="form-row-1">
+                        <div>
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="first-name" id="first-name" name="first-name" required>
+                        </div>
+                        <div>
+                            <label for="second-name">Second Name</label>
+                            <input type="text" class="second-name" name="second-name" id="second-name">
                         </div>
                         
-                        <div class="form-row-2">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject">
-                        </div>
+                      
+                    </div>
+                    
+                    <div class="form-row-2">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
 
-                        <div class="form-row-3">
-                            <label for="email">Email</label>
-                            <input type="email" id="email">
-                        </div>
+                    <div class="form-row-3">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
 
-                        <div class="form-row-4">
-                            <label for="taxtarea">Message</label>
-                            <textarea name="#" id="textarea" placeholder="Write your message..." cols="30" rows="10"></textarea>
-                        </div>
+                    <div class="form-row-4">
+                        <label for="taxtarea">Message</label>
+                        <textarea name="#" id="textarea" name="textarea" placeholder="Write your message..." cols="30" rows="10" required></textarea>
+                    </div>
 
-                        <button type="submit" class="send-message">send message</button>
-                    </form>
+                    <button type="submit" class="send-message">send message</button>
+                </form>
 
-            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 <!-- end of footer  -->
 
     <script src="js/jquery-3.5.1.min.js"></script>
