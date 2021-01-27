@@ -1570,12 +1570,12 @@ label {
   }
 
   nav ul:first-child li {
-    height: 30px;
+    height: 32px;
     margin-bottom: 20px;
   }
 
   nav ul:first-child li a {
-    height: 30px;
+    height: 35px;
   }
 
   .main-image {
