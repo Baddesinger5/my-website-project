@@ -449,6 +449,9 @@ nav ul:first-child li {
   font-weight: 300;
   width: 50%;
   margin-bottom: 20px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
 }
 nav ul:first-child li:hover {
   width: 80%;
@@ -512,6 +515,9 @@ nav ul:first-child li a {
   position: absolute;
   height: 60px;
   width: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
 }
 
 .social {
