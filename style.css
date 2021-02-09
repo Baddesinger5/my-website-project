@@ -1628,3 +1628,80 @@ label {
     font-size: 22px;
   }
 }
+/*========= vertical resize ==========*/
+@media only screen and (max-height: 500px) {
+  nav ul:first-child li {
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .social a {
+    font-size: 20px;
+  }
+
+  .copyrights {
+    font-size: 12px;
+  }
+
+  #companionMethods {
+    font-size: 20px;
+  }
+
+  .animation-scroll img {
+    height: 15px;
+  }
+  .animation-scroll img:first-child {
+    height: 30px;
+  }
+}
+@media only screen and (max-height: 400px) {
+  html {
+    /* change hamburger icon*/
+    font-size: 10px;
+  }
+
+  nav ul:first-child {
+    top: 48%;
+  }
+
+  .download-cv {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .contact-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .social {
+    bottom: 7%;
+  }
+}
+@media only screen and (max-height: 360px) {
+  html {
+    /* change hamburger icon*/
+    font-size: 8px;
+  }
+
+  #companionMethods {
+    font-size: 20px;
+  }
+
+  nav ul:first-child li {
+    height: 20px;
+    font-size: 14px;
+  }
+
+  .download-cv {
+    font-size: 12px;
+  }
+
+  .contact-button {
+    font-size: 12px;
+  }
+
+  .social a {
+    font-size: 16px;
+  }
+}
