@@ -456,10 +456,12 @@ nav ul:first-child li {
 nav ul:first-child li:hover {
   width: 80%;
   transition: all 0.3s ease-in-out 0s;
-  margin-left: 30px;
+  margin-left: 35px;
   border-bottom: 1px solid #40424a;
-  font-weight: bold;
   cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
 }
 
 /*============ end of hamburger =====*/
